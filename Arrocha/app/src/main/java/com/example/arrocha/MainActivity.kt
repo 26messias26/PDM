@@ -43,9 +43,10 @@ class MainActivity : AppCompatActivity() {
                     val intent = Intent(this@MainActivity, resultado::class.java).apply{
                         putExtra("JOGO", this@MainActivity.arrocha)
                     }
+                    startActivity(intent)
 
                     // Inicia um novo jogo
-                    startActivity(intent)
+
                     this@MainActivity.arrocha = Arrocha()
                 }
 
