@@ -1,3 +1,3 @@
 # PDM
 
-Repositorio dos projetos da cadeira de Desenvolvimento para Dispositivos Moveis 
+Repositorio dos projetos da cadeira de Desenvolvimento para Dispositivos Moveis - Android
