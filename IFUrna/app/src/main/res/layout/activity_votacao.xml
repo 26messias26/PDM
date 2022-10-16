@@ -35,24 +35,35 @@
                 >
 
                 <EditText
+                    android:id="@+id/etINum"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:inputType="number"
                     android:background="#fff"
                     android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:maxLength="1"
                     ></EditText>
 
                 <EditText
+                    android:id="@+id/etIINum"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:inputType="number"
                     android:background="#fff"
                     android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    android:maxLength="1"
                     ></EditText>
 
                 <EditText
+                    android:id="@+id/etIIINum"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
+                    android:inputType="number"
                     android:background="#fff"
-
+                    android:gravity="center"
+                    android:maxLength="1"
                     ></EditText>
 
             </LinearLayout>

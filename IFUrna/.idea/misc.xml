@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.207" />
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/activity_candidatos.xml" value="0.25" />
         <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
         <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/activity_votacao.xml" value="0.17074275362318841" />
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/content_candidatos.xml" value="0.13451086956521738" />
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/fragment_first.xml" value="0.19293478260869565" />
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/fragment_second.xml" value="0.19293478260869565" />
       </map>
     </option>
   </component>
