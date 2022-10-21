@@ -14,6 +14,12 @@
         android:theme="@style/Theme.IFUrna"
         tools:targetApi="31">
         <activity
+            android:name=".CadasCandidato"
+            android:exported="false" />
+        <activity
+            android:name=".Resultado"
+            android:exported="false" />
+        <activity
             android:name=".Candidatos"
             android:exported="false"
             android:label="@string/title_activity_candidatos"

@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.149" />
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/drawable/card_view_bg.xml" value="0.206" />
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/drawable/circle.xml" value="0.149" />
         <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.207" />
-        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/activity_candidatos.xml" value="0.25" />
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/drawable/ic_launcher_background.xml" value="0.149" />
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/activity_cadas_candidato.xml" value="0.1484375" />
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/activity_candidatos.xml" value="0.1" />
         <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/activity_resultado.xml" value="0.19947916666666668" />
         <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/activity_votacao.xml" value="0.17074275362318841" />
+        <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/canditato_item.xml" value="0.25" />
         <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/content_candidatos.xml" value="0.13451086956521738" />
         <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/fragment_first.xml" value="0.19293478260869565" />
         <entry key="..\:/Facudade/PDM/Atividades/IFUrna/app/src/main/res/layout/fragment_second.xml" value="0.19293478260869565" />

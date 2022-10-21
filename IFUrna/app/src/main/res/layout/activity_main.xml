@@ -41,6 +41,7 @@
             android:layout_marginBottom="20dp"
             ></Button>
         <Button
+            android:id="@+id/btCandidatos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30dp"
@@ -50,6 +51,7 @@
             android:layout_marginBottom="20dp"
             ></Button>
         <Button
+            android:id="@+id/btResultado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30dp"

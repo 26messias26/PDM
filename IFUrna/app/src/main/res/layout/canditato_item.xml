@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_view_bg"
+    tools:showIn="@layout/activity_candidatos"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="10dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tvFotoCand"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            tools:text="A"
+            android:textSize="24dp"
+            android:textColor="@color/white"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/tvNomeCand"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@id/tvFotoCand"
+            android:layout_toLeftOf="@id/tvNomeCand"
+            android:layout_toEndOf="@id/tvFotoCand"
+            android:gravity="center"
+            android:textColor="#000000"
+
+            android:textSize="25dp"
+            tools:text="Adriano"
+            />
+
+        <TextView
+            android:id="@+id/tvNumCand"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="4"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/tvNomeCand"
+            android:layout_toEndOf="@id/tvNomeCand"
+            android:gravity="center"
+            android:textColor="#000000"
+
+            android:textSize="30dp"
+            tools:text="444"
+
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
