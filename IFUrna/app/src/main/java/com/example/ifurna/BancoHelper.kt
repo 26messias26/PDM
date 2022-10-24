@@ -10,8 +10,7 @@ import java.lang.Integer.parseInt
 class BancoHelper (context:Context): SQLiteOpenHelper(context,"db_urna", null, 1){
 
     override fun onCreate(db: SQLiteDatabase?) {
-        val query = "create table candidatos("+
-                "id integer primary key autoincrement, " +
+        val query = "create table candidatos(id integer primary key autoincrement, " +
                 "nome text," +
                 "numero text,"+
                 "votos integer)"

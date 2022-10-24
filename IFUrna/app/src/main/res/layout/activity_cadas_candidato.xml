@@ -5,12 +5,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CadasCandidato"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="#e3e3e3"
+    android:orientation="vertical">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cadastro de candidatos"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="Nome"
+        />
+    <EditText
+        android:id="@+id/etNumero"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:hint="Numero"
+        />
+
+    <Button
+        android:id="@+id/bCadastrar"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:text="Cadastrar"
+
         />
 
 
