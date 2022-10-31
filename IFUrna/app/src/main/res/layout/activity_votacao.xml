@@ -72,7 +72,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:gravity="center"
                 >
+                <TextView
+                    android:id="@+id/tvVotoNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:text="Nome Candidato"
+                    />
 
             </LinearLayout>
 
@@ -83,8 +92,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
+        android:gravity="center"
         android:layout_weight="1"
-        ></LinearLayout>
+        >
+
+        <Button
+            android:id="@+id/btCVotar"
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:textSize="40dp"
+            android:text="Votar"
+            />
+    </LinearLayout>
 
 </LinearLayout>

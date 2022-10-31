@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         this.btResultado = findViewById(R.id.btResultado)
 
 
+
         this.btVotar.setOnClickListener{
             telaVotar()
         }

@@ -7,21 +7,26 @@ import android.text.TextUtils
 import android.text.TextWatcher
 import android.widget.EditText
 import android.widget.TextSwitcher
+import android.widget.TextView
 
 class Votacao : AppCompatActivity() {
 
+    private lateinit var dao : DAOCandidato
     private lateinit var etINum : EditText
     private lateinit var etIINum : EditText
     private lateinit var etIIINum : EditText
+    private lateinit var tvVotoNome : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_votacao)
 
+        this.dao = DAOCandidato(this)
         this.etINum = findViewById(R.id.etINum)
         this.etIINum = findViewById(R.id.etIINum)
         this.etIIINum = findViewById(R.id.etIIINum)
+        this.tvVotoNome = findViewById(R.id.tvVotoNome)
 
         //TROCA O FOCO AO DIGITAR O NUMERO
         etINum.addTextChangedListener( object : TextWatcher{
@@ -63,6 +68,9 @@ class Votacao : AppCompatActivity() {
                     etIINum.requestFocus()
 
                 }
+
+                
+
             }
         });
 

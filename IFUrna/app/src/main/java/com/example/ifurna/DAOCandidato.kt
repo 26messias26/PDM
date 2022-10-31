@@ -2,6 +2,7 @@ package com.example.ifurna
 
 import android.content.ContentValues
 import android.content.Context
+import android.database.sqlite.SQLiteDatabase
 import com.example.ifurna.model.Candidato
 
 class DAOCandidato {
@@ -20,7 +21,7 @@ class DAOCandidato {
 
      fun read() : ArrayList<Candidato>{
          val listCandidatos = arrayListOf<Candidato>()
-         val colunas = arrayOf("id", "nome","data")
+         val colunas = arrayOf("id", "nome","numero","votos")
          val resultQuery = this.bancoH.readableDatabase.query("candidatos" ,colunas ,null ,null ,null ,null ,"nome")
          resultQuery.moveToFirst()
 
@@ -37,9 +38,10 @@ class DAOCandidato {
          return listCandidatos
     }
 
-    fun findForId(id: Int): Candidato?{
-        val colunas = arrayOf("id", "nome")
-        val resultQuery = this.bancoH.readableDatabase.query("pessoas", colunas, null, null, null, null, "nome")
+    fun findForNumero(id: Int): Candidato?{
+        val colunas = arrayOf("id", "nome","numero")
+
+        val resultQuery = this.bancoH.readableDatabase.query("pessoas", colunas, "numero=?",null , null, null, null)
         resultQuery.moveToFirst()
 
         val id = resultQuery.getInt(0)
